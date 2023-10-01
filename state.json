@@ -1,0 +1,25 @@
+{
+  "goals": [
+    {
+      "completeDate": null,
+      "priority": "high",
+      "effort": "medium",
+      "name": "Host First Salon"
+    },
+    {
+      "completeDate": null,
+      "priority": "low",
+      "effort": "low",
+      "name": "Fix Light Strip Top"
+    }
+  ],
+  "habits": [
+    {
+      "name": "Calisthenics",
+      "streak": 0,
+      "maxStreak": 0,
+      "days": 0,
+      "dateStarted": "2023-10-01"
+    }
+  ]
+}

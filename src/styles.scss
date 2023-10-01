@@ -1,0 +1,17 @@
+.habits-section, .goals-section {
+  grid-column: span 6;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  h2 {
+    grid-column: span 12;
+  }
+  
+  .goal-item {
+    grid-column: span 12;
+  }
+}
+  
+.habit-item {
+  grid-column: span 6;
+}
