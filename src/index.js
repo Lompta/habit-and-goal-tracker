@@ -137,7 +137,7 @@ const App = () => {
                     onChange={(e) => setNewGoalEffort(e.target.value)} 
                     placeholder="New Goal Effort"
                 />
-                <button onClick={() => addGoal({name: newGoalName, effort: newGoalEffort, priority: newGoalPriority, completeDate: null})}>Add Habit</button>
+                <button onClick={() => addGoal({name: newGoalName, effort: newGoalEffort, priority: newGoalPriority, completeDate: null})}>Add Goal</button>
             </div>
         </Wrapper>
     )
