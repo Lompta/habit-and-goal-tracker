@@ -58,7 +58,8 @@ const App = () => {
     const completeGoal = useCallback((index) => {
         const completedGoal = {...state.goals[index], completeDate: new Date().toISOString().split('T')[0]};
         const goalsCopy = [...state.goals];
-        goalsCopy[index] = completedGoal; 
+        goalsCopy.splice(index, 1)
+        goalsCopy.push(completedGoal); 
         setState({...state, goals: goalsCopy})
     }, [state, setState]);
 

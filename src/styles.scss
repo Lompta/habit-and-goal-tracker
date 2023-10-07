@@ -7,6 +7,10 @@
     grid-column: span 12;
   }
 }
+
+.habits-section {
+  align-self: start;
+}
   
 .habit-item, .goal-item {
   grid-column: span 6;
